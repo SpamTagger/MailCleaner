@@ -274,7 +274,7 @@ function showHideToolTip(e, show, st, comm) {
 }
 
 var popup_width = 500;
-var popup_height = 251;
+var popup_height = 400;
 var cpopup_height = 200;
 var info_width = 500;
 var info_height = 500;

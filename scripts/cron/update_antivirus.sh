@@ -1,4 +1,5 @@
 #!/bin/bash
+exit
 
 SRCDIR=`grep 'SRCDIR' /etc/mailcleaner.conf | cut -d ' ' -f3`
 if [ "$SRCDIR" = "" ]; then

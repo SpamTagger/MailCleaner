@@ -80,7 +80,7 @@ my @order = (
     { 'id' => 'clamspamd', 'proc' => 'clamspamd.conf', 'human' => 'ClamSpam Daemon' },
     { 'id' => 'newsld', 'proc' => 'newsld.sock', 'human' => 'Newsletter Daemon' },
     { 'id' => 'spamhandler', 'proc' => 'SpamHandler', 'human' => 'SpamHandler Daemon' },
-    { 'id' => 'firewall', 'proc' => 'SpamHandler', 'human' => 'Firewall' }
+    { 'id' => 'firewall', 'proc' => 'iptables', 'human' => 'Firewall' }
 );
 
 my $res;
